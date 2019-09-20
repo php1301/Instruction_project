@@ -1,0 +1,110 @@
+.contact-carousel{
+	height: 300px;
+	background-image: url('../images/banner1.jpg');
+	background-position: center center;
+}
+.contact-section{
+	padding:4rem 15px;
+}
+.contact-title h1{
+	color:#ff4f81;
+	font-weight: 600;
+	font-size: 45px;
+	letter-spacing: 0.5px; 
+}
+.contact-title span{
+	font-size:17px;
+	letter-spacing: 4px;
+	color: black;
+}
+.contact-content{
+	min-height: 300px;
+}
+.contact-info{
+	background-color: #0e0e0e;
+	padding:2em;
+}
+.contact-info h3{
+	font-size: 1.4em;
+	font-weight: 600;
+	letter-spacing: 1px;
+
+}
+.contact-info__detail{
+	margin-bottom:30px;
+}
+.contact-info__detail__item{
+	width:50px;
+	height: 50px;
+	border:2px solid #ddd;
+	color:white;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top:10px;
+	margin-right:15px;
+}
+.contact-info__detail__item i{
+	font-size:20px;
+}
+.contact-info__detail h4{
+	font-size:1em;
+	color: #ff4f81;
+}
+.contact-info__detail span{
+	font-size: 0.9em;
+	color: #cecaca;
+	line-height: 1.8em;
+}
+.contact-info__social i{
+	padding:8px 10px;
+	background-color:white;
+	transition: all 0.5s;
+}
+.contact-facebook{
+	color: #3b5998;
+}
+.contact-facebook:hover{
+	background-color: #3b5998;
+	color: white;
+}
+.contact-twitter{
+	color: #1da1f2;
+}
+.contact-twitter:hover{
+	background-color:#1da1f2;
+	color: white;
+}
+.contact-twitch{
+	color: #f26522;
+}
+.contact-twitch:hover{
+	background-color:#f26522;
+	color: white;
+}
+.contact-info__img{
+	background:url('../images/g11.jpg') no-repeat;
+	background-size: cover;
+}
+.contact-form input,.contact-form textarea{
+	padding:14px;
+	border-radius: 0px;
+	background-color: #f5f5f5;
+}
+.btn-contact-submit{
+	background-color: #ec1955;
+	color: white;
+	border-radius: 0px;
+	margin-top:25px;
+	font-size:20px;
+}
+.btn-contact-submit:hover{
+	background-color: #ff4f81;
+}
+.contact-map{
+	padding:20px;
+	background-color:#f5f5f5;
+}
+.contact-map iframe{
+	width:100%;
+	height: 400px;
+}

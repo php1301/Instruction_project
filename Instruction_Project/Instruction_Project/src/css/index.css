@@ -1,0 +1,450 @@
+#header{
+	background-color: #ff4f81;
+	color: white;
+}
+.header-left i{
+	margin-right:4px;
+}
+.header-right i{
+	font-size: 14px;
+	padding:8px 10px;
+	background-color: #333333;
+	margin-left:2px;
+	border:1px solid transparent;
+	transition:all 0.5s;
+	/* chinh logo */
+}
+.header-right i:hover{
+	background-color: #ff4f81;
+	border:1px solid white;
+}
+.navbar-brand--logo p{
+	color:#ff4f81;
+	font-size:0.8em;
+	margin-top: -5px;
+}
+.navbar-nav--menu{
+	margin-top:-10px
+}
+.navbar-nav--menu .nav-item .nav-link {
+	font-weight: bold;
+	color: #282828;
+	transition:all 0.5s;
+}
+.nav-item__line{
+	width:0%;
+	height:2px;
+	background-color:#ff4f81;
+	transition:all 0.5s;
+}
+.navbar-nav--menu .nav-item:hover>.nav-link{
+	/* chon phan tu dau navitem */
+	color: #ff4f81;
+}
+
+.navbar-nav--menu .nav-item:hover>.nav-item__line{
+	width:100%;
+}
+.navbar-nav--menu .nav-item{
+	margin-left:20px;
+}
+.navbar-light .navbar-nav--menu .active .nav-link{
+	color:#ff4f81;
+}
+.navbar-nav--menu .active .nav-item__line{
+	width:100%;
+}
+/* CAROUSEL */
+.carousel-caption--config{
+	bottom:30%;
+}
+.carousel-indicators--config{
+	bottom:20%;
+}
+.btn--read-more{
+	border-radius: 0px;
+	margin-top:10px;
+}
+.btn--read-more:hover{
+	background-color: #ff4f81;
+	color: white;
+	transition:all 0.5s;
+}
+.carousel-caption--config h1{
+	font-weight: normal;
+	font-size:3.3em;
+}
+.carousel-caption--config p{
+	font-size:1.1em;
+	letter-spacing: 4px;
+	line-height: 1.8em;
+}
+.modal-header--carousel h1{
+	color:#ff4f81;
+}
+/* WELCOME */
+.welcome-section{
+	padding:3rem 15px;
+}
+.welcome-title h1{
+	color:#ff4f81;
+	font-weight: 600;
+	font-size: 40px;
+	letter-spacing: 0.5px; 
+}
+.welcome-title span{
+	font-size:17px;
+	letter-spacing: 4px;
+	font-weight: 500;
+	color: black;
+}
+.welcome-title__line{
+	width:70px;
+	height:2px;
+	background-color: black;
+}
+.welcome-title p{
+	font-size: 15px;
+	color: #999;
+	line-height: 1.8em;
+	padding:0 10%;
+}
+.education-course i{
+	font-size:30px;
+}
+.education-course h2{
+	color:#ff4f81;
+	font-weight: 600;
+	margin:15px 0;
+}
+.education-course h3{
+	font-size:1em;
+	font-weight: bold;
+}
+.education-course p{
+	font-size: 15px;
+	color: #999;
+	line-height: 1.8em;
+}
+
+
+
+
+
+/*START*/
+.star-section{
+	min-height: 400px;
+	background-image: url('../images/banner2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	padding:4rem 15px;
+}
+.start-title h1{
+	color:#ff4f81;
+	font-weight: 600;
+	font-size: 40px;
+	letter-spacing: 0.5px; 
+}
+.start-title span{
+	font-size:17px;
+	letter-spacing: 4px;
+	font-weight: 500;
+	color: white;
+}
+.start-detail{
+	color: white;
+	text-align: center;
+}
+.start-detail i{
+	font-size:40px;
+}
+.start-detail h2{
+	font-size:25px;
+	color:#ff4f81;
+	margin-top:25px;
+}
+.start-detail p{
+	font-size:45px;
+}
+/*OFFER*/
+.offer-section{
+	padding:3rem 15px;
+}
+.offer-title h1{
+	color:#ff4f81;
+	font-weight: 600;
+	font-size: 40px;
+	letter-spacing: 0.5px; 
+}
+.offer-title span{
+	font-size:17px;
+	letter-spacing: 4px;
+	color: black;
+}
+.offer-item{
+	-webkit-box-shadow: 0px 0px 2px 1px #aaa;
+	-moz-box-shadow: 0px 0px 2px 1px #aaa;
+	-o-box-shadow: 0px 0px 2px 1px #aaa;
+	box-shadow: 0px 0px 2px 1px #aaa;
+	padding:2rem 1rem;
+	margin-bottom:30px;
+	transition: all 0.5s;
+}
+.offer-item:hover{
+	background-color: #12ccc3;
+}
+.offer-item i{
+	font-size:40px;
+	color:#ff4f81;
+}
+.offer-item h3{
+	font-size:20px;
+	color: #212121;
+	margin:20px 0px;
+}
+.offer-item p{
+	font-size:14px;
+	color:#6b6b6b;
+}
+ /*TESTI */
+.testimonials-section{
+	padding:3rem 15px;
+	min-height:400px;
+	background-image: url('../images/banner3.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.testimonials-title h1{
+	color:#ff4f81;
+	font-weight: 600;
+	font-size: 40px;
+	letter-spacing: 0.5px; 
+}
+.testimonials-title span{
+	font-size:17px;
+	letter-spacing: 4px;
+	color: white;
+}
+.testimonials-slider{
+	background-color: rgba(0,0,0,0.47);
+	-webkit-box-shadow: 0px 0px 2px 1px #8e8e8e;
+	-moz-box-shadow: 0px 0px 2px 1px #8e8e8e;
+	-o-box-shadow: 0px 0px 2px 1px #8e8e8e;
+	box-shadow: 0px 0px 2px 1px #8e8e8e;
+	padding:30px;
+}
+.item__box{
+	background-color:rgba(0,0,0,0.57);
+	padding:10px 20px;
+	color: white;
+	margin-bottom:30px;
+	border-radius: 5px;
+	position:relative;
+}
+.item__box::after{
+	content:'';
+	border-top:9px solid rgba(0,0,0,0.57);
+	border-left:9px solid transparent;
+	border-right:9px solid transparent;
+	position: absolute;
+	bottom:-9px;
+	left:27%;
+}
+.item__user{
+	margin-left:27%;
+	color: white;
+	margin-bottom:20px;
+}
+.owl-carousel .item__user img{
+	width:55px;
+	height: 55px;
+	float: left;
+	margin-right:10px;
+}
+.item__user p{
+	margin-bottom: 0;
+	font-size:1.1em;
+	font-weight: bold;
+}
+.item__user span{
+	color:#ff4f81;
+	font-size:0.8em;	
+}
+.owl-theme--pink .owl-dots .owl-dot span{
+	background: #ff4f81;
+	opacity: 0.5;
+}
+.owl-theme--pink .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+	background: #ff4f81;
+	opacity: 1;
+}
+
+/*EVENTS SECTION*/
+.event-section{
+	padding:3rem 15px;
+}
+.event-title h1{
+	color:#ff4f81;
+	font-weight: 600;
+	font-size: 40px;
+	letter-spacing: 0.5px; 
+}
+.event-title span{
+	font-size:17px;
+	letter-spacing: 4px;
+	color: black;
+}
+.event-img img{
+	border:solid #dedede;
+}
+.event-info h2{
+	font-size: 1.4em;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color: black;
+}
+.event-info span{
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #ff4f81;
+}
+.event-info p{
+	color: #999;
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+.event-section__spacing{
+	height: 4rem;
+	width: 100%;
+}
+/*FOOTER*/
+.footer-detail{
+	background-color: #141415;
+	padding:3rem 15px;
+}
+.footer-detail h2{
+	color:#ff4f81;
+	font-size: 1.5em;
+	font-weight: 500;
+	margin-bottom:20px;
+}
+.footer-detail p{
+	color:#8b8b96;
+	font-size:14px;
+	margin-bottom: 10px;
+}
+.footer__news p i{
+	color:#ff4f81;
+	margin-right:10px;
+}
+.footer__contact i{
+	width:30px;
+	height:30px;
+	text-align: center;
+	padding-top:5px;
+	font-size:15px;
+	color: white;
+	border:1px solid #4b4b50;
+}
+.footer__contact p span{
+	margin-left:10px;
+}
+
+.footer__form h2{
+	font-size:1.5em;
+	font-weight: 600;
+}
+.footer__form input {
+	height:40px;
+	width:70%;
+}
+.btn-footer-submit{
+	background-color: #ff4f81;
+	border-radius: 0px;
+	height: 40px;
+	margin-top:-3px;
+	cursor:pointer;
+	width:25%;
+}
+.btn-footer-submit:hover{
+	background-color: #ec1955;
+}
+.copy-right{
+	background-color: #0f0f10;
+}
+.copy-right p span{
+	color:#ff4f81;
+}
+/* MEDIA QUERY */
+@media screen and (min-width:768px) and (max-width:991px){
+	.navbar-brand--logo h1{
+		font-size:30px;
+	}
+	.navbar-nav--menu .nav-item .nav-link{
+		font-size:0.9em;
+	}
+	.navbar-nav--menu .nav-item{
+		margin-left:10px;
+	}
+	.footer__form h2{
+		font-size:1.4em;
+
+	}
+}
+@media screen and (min-width:769px) and (max-width:834px){
+	.carousel-caption--config h1{
+		font-weight: normal;
+		font-size:3em;
+	}
+}
+@media screen and (max-width:768px){
+	.carousel-caption--config{
+		bottom:20%;
+	}
+	.carousel-indicators--config{
+		bottom:10%;
+	}
+	.carousel-caption--config h1{
+		font-weight: normal;
+		font-size:2.2em;
+	}
+	.carousel-caption--config p{
+		font-size:1em;
+		letter-spacing: 2px;
+		line-height: 1.8em;
+		margin-bottom: 0;
+	}
+	.education-course h2{
+		font-size:25px;
+	}
+}
+@media screen and (max-width:576px){
+	.carousel-caption--config{
+		bottom:17%;
+	}
+	.carousel-indicators--config{
+		bottom:0%;
+	}
+	.carousel-caption--config h1{
+		font-weight: normal;
+		font-size:1.5em;
+	}
+	.carousel-caption--config p{
+		font-size:0.8em;
+		letter-spacing: 2px;
+		line-height: 1.3em;
+		margin-bottom: 0;
+	}
+	/* EDUCATION */
+
+	.welcome-title p{
+		padding:0 5%;
+	}
+	.event-img img{
+		margin-bottom:10px;
+	}
+	.event-section__spacing{
+		height: 1rem;
+	}
+}
